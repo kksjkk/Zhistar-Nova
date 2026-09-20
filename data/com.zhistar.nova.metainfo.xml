@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.zhistar.nova</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>ZhiStar Nova</name>
+  <summary>A modern web browser powered by WebKitGTK</summary>
+  <description>
+    <p>
+      ZhiStar Nova is a fast, lightweight web browser built on WebKitGTK with a
+      Firefox-inspired UI. It features a starry sky homepage, rich settings,
+      ad blocking, tab pinning, download management, and full Chinese/English
+      internationalization.
+    </p>
+  </description>
+  <launchable type="desktop-id">com.zhistar.nova.desktop</launchable>
+  <url type="homepage">https://github.com/kksjkk/zhistar-nova</url>
+  <provides>
+    <binary>ZhiStar-Nova</binary>
+  </provides>
+  <categories>
+    <category>Network</category>
+    <category>WebBrowser</category>
+  </categories>
+  <keywords>
+    <keyword>browser</keyword>
+    <keyword>web</keyword>
+    <keyword>internet</keyword>
+    <keyword>webkit</keyword>
+  </keywords>
+  <releases>
+    <release version="1.0.0" date="2026-09-20">
+      <description>
+        <p>Initial release of ZhiStar Nova browser.</p>
+      </description>
+    </release>
+  </releases>
+</component>

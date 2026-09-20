@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=ZhiStar Nova
+GenericName=Web Browser
+Comment=A lightweight web browser built with GTK3 and WebKitGTK
+Exec=ZhiStar-Nova %u
+Icon=zhistar-nova
+Terminal=false
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;
+StartupNotify=true
