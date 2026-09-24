@@ -12,6 +12,7 @@
 *.map
 *.exp
 
+自带的
 # Precompiled Headers
 *.gch
 *.pch

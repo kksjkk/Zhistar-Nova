@@ -1,6 +1,6 @@
 CC      = gcc
 CSTD    = -std=c11
-WARN    = -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers
+WARN    = -Wall -Wextra -Wpedantic 
 CFLAGS  = -g -O2 $(CSTD) $(WARN) $(shell pkg-config --cflags gtk+-3.0 webkit2gtk-4.1 libsoup-3.0) -DPACKAGE_VERSION=\"1.0.0\"
 LDFLAGS = -rdynamic $(shell pkg-config --libs gtk+-3.0 webkit2gtk-4.1 libsoup-3.0) -lpthread -lm
 
