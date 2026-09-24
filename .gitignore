@@ -53,3 +53,16 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# 编译产物
+build/
+*.o
+ZhiStar-Nova
+
+# AppImage 构建缓存（370MB，绝对不要上传）
+AppImage/
+*.AppImage
+
+# 个人配置
+.vscode-oss/
+*.log
